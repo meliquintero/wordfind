@@ -1,0 +1,46 @@
+.App {
+  width: 80%;
+  margin: 10% 10%;
+  color: rgb(40,40,40);
+}
+
+.grid-container {
+  display: grid;
+  color: rgb(90, 90, 90);
+}
+
+.grid-cell {
+  outline: .5px solid rgb(200, 200, 200);
+}
+
+.char {
+  text-align: center;
+  height: 38.5px;
+  width: 38.5px;
+  margin: 3px auto;
+  font-size: 30px;
+}
+
+.active > div{
+  background: rgb(0, 190, 255);;
+  border-radius: 50%;
+  color: white;
+}
+
+.winner > div {
+  background: rgb(245, 155, 0);
+  border-radius: 5%;
+  color: white;
+}
+
+button {
+  margin: 30px;
+  font-size: 18px;
+  height: 45px;
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background: #51d400;
+  cursor: pointer;
+}
